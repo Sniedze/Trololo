@@ -1,0 +1,29 @@
+.son{
+    background-image: url(sprite4.png);
+    width: 250px;
+    height: 415px;
+    animation:walk 2s steps(8);
+}
+@keyframes walk{
+    to{
+        background-position: -2000px;
+        }
+}
+.dad{
+    width: 220px;
+    height: 390px;
+    margin-left: 400px;
+}
+.creatures{
+    display: inline-block;
+    margin-top: 200px;
+}
+.move{
+    animation: movement 7s forwards;
+}
+
+@keyframes movement{
+    to{
+        transform: translateX(400px);
+    }
+}
